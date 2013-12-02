@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Stage3d Game</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css" media="screen">
+		html, body { height:100%; background-color:silver;}
+		body { margin:0; padding:0; overflow:hidden; }
+		#title { color:orange; padding:16px; background:black; font-family:arial; font-size:24px; text-weight:bold; text-align:center; }
+		#desc { color:black; margin:16px; text-align:center; font-family:arial; font-size:16px; }
+		#flashContent { width:640px; height:480px; margin:auto; }
+		a { color:blue; }
+		a:hover { color:red; }
+		</style>
+	</head>
+	<body>
+		
+		<div id="title">Stage3D Game Template - Chapter 5</div>
+		<div id="desc">
+		This is an example of the .OBJ model parser in action.<br />
+		It requires a Stage3D enabled Flash player, 
+		such as <a href='http://labs.adobe.com/downloads/flashplayer11.html'>Flash 11</a>.<br />
+		</div>
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="640" height="480" id="Stage3dGame" align="middle">
+				<param name="movie" value="Stage3dGame.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="direct" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="Stage3dGame.swf" width="640" height="480">
+					<param name="movie" value="Stage3dGame.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#000000" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="direct" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	</body>
+</html>
